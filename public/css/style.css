@@ -1,0 +1,68 @@
+body {
+    font-size: 0.9rem;
+}
+.inputBorder:focus {
+    border: 1px solid red;
+}
+.inputBorder {
+    background-color: lightgrey;
+    box-shadow: none!important;
+}
+.b {
+    padding: 0.8rem 0.5rem;
+}
+.lastfooter {
+    background: rgb(48, 47, 56);
+    color: white;
+}
+
+.mainCardImg {
+    width: 40px;
+    height: 40px;
+}
+.mainLink {
+    text-decoration: none;
+    color: black;
+}
+.mainLink:hover {
+    text-decoration: none;
+    color: black;
+}
+.mainDiv:hover {
+    box-shadow: 0px 3px 4px rgba(250, 235, 215, 0.1);
+    transition: .1s linear all;
+    transform: translateY(-2px);
+    border: 1px solid #EEEEEE;
+}
+.mainDiv {
+    border-radius: 5px;
+}
+.voteDiv {
+    background-color: grey;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.courseDiv {
+    min-height: 120px;
+    border-radius: 5px;
+}
+.fb-color {
+    background-color: #3b5998;
+}
+.git-hub-color {
+    background-color: #24292e;
+}
+.bg-color-0 {
+    background-color: transparent!important;
+}
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+.voteIcon:hover {
+    transform: scale(1.5)
+}
+.border-radius-3 {
+    border-radius: 3px;
+    border: 1px solid black;
+}
