@@ -67,7 +67,7 @@ function LoginModal({
                     {loading ? <div className='text-center w-100 m-3'>  <Loading title='Please wait' /> </div>: null}
                     <div className='d-flex justify-content-center mb-5'>
                         <FacebookLogin
-                            appId="519824758709123"
+                            appId="*****Your facebook api key*******"
                             autoLoad={false}
                             callback={responseFacebook}
                             fields="name,email"
